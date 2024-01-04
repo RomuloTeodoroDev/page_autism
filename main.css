@@ -1,0 +1,47 @@
+body {
+    font-family:'Kalam', cursive;
+}
+
+.navbar {
+    background-color: blue;
+}
+
+#cabecalho .nav .nav-link.active{
+    background-color: #fff;
+    color: blue;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-tipos-tea .nav-link.active:hover {
+    color: #fff;
+}
+
+.carousel-item img{
+    width: 100%;
+    height: 600px;
+}
+
+.text-colored {
+    color: blue;
+}
+
+#sobre-o-autismo, #tipos-de-tea{
+    background-color: rgb(161, 214, 250);
+}
+
+.social-links li {
+    list-style: none;
+    display: inline;
+}
+
+.social-links li a {
+    text-decoration: none;
+}
+
+@media (max-width: 767px) {
+    .carousel-item img {
+        height: 280px;
+    }
+}
